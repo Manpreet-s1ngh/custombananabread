@@ -56,8 +56,8 @@ function App() {
         // <ToastContainer />
         <SelectedOptionsProvider>
           <Routes>
-            <Route path="custombananabread" element={<SignIn />} />
-            <Route path="custombananabread/" element={<SignIn />} />
+            <Route path="/custombananabread" element={<SignIn />} />
+            <Route path="/custombananabread/" element={<SignIn />} />
             <Route path="/" element={<SignIn />} />
             <Route path="/Homepage" element={<Body />} />
             <Route path="/summary" element={<SummaryDisplay />} />
