@@ -1,0 +1,44 @@
+/* src/css/SavedRecipes.css */
+
+.saved-recipes-container {
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.saved-recipes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.saved-recipe-card {
+    
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(25% - 20px); /* 4 cards per row */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.saved-recipe-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.saved-recipe-info {
+  padding: 10px;
+}
+
+.saved-recipe-title {
+  font-size: 1.2em;
+  margin: 0;
+  
+}
+
+.saved-recipe-price {
+  color: #333;
+}
+
+
+

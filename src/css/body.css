@@ -1,0 +1,76 @@
+.mainBody{
+    display: flex;
+    background-color: rgb(255, 255, 250);
+    min-height: 50vh;
+    flex-basis: 100%;
+}
+.leftSection{
+    
+    
+    
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+ 
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    overflow: hidden;
+    
+}
+.leftSection h1{
+   
+    font-size: 5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.leftSection span{
+    font-size: 5.6rem;
+    color: #C0361B;
+    text-shadow: 2px 2px 5px lightgray;
+}
+
+.leftSection h3{
+    padding: 15px;
+    color: gray;
+    font-size: 1.5rem;
+    padding-top: none ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.leftSection button{
+
+    border: none;
+    border-radius: 4rem;
+    background-color: #765723;
+    padding: 20px;
+    padding-left: 5.4rem;
+    padding-right: 5.4rem;
+
+    font-size: 25px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-justify: auto;
+    font-weight: bold;
+    box-shadow: 4px 2px 4px grey;
+    cursor: pointer;
+
+    
+    
+}
+
+
+.rightSection{
+    flex-basis:50%;
+    
+    background-size: 100vh;
+    
+}
+.rightSection img{
+    height: 100vh;
+   width: 100%;
+    overflow-y: auto;
+}
+
+

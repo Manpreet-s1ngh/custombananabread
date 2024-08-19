@@ -1,0 +1,114 @@
+/* General Styles */
+/* body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f9fc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+} */
+
+/* App Container */
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header
+
+h1 {
+  text-align: center;
+  color: #4A90E2;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+*/
+
+/* Categories Wrapper */
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Category Card */
+.category {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.category:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+/* Category Header */
+.category h2 {
+  margin-top: 0;
+  font-size: 1.8em;
+  color: #C0361B;
+  /* border-bottom: 2px solid #4A90E2;
+   */
+   border-bottom: 2px solid #C0361B;
+  padding-bottom: 10px;
+}
+
+/* Options List */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Option Items */
+.option {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.option:last-child {
+  border-bottom: none;
+}
+
+/* Option Label */
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Radio and Checkbox Styles */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: #C0361B;
+}
+
+/* Price Display */
+.option span.price {
+    padding-left: 10px;
+  margin-left: auto;
+  font-weight: bold;
+  color: #3fc4ed;
+}
+
+.paybutton{
+  margin: 10% ;
+  background-color: #561103;
+  color: white;
+  font-size: 2rem;
+  padding:20px 40px;
+  border-radius: 5%;
+   
+}

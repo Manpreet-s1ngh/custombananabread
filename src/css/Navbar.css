@@ -1,0 +1,40 @@
+.navbar{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    padding: 30px;
+    width: 120px;
+    border-radius: 50%;
+}
+.logoSection{
+    
+    flex-basis: 68%;
+    background-color: rgb(255, 255, 250);   
+    display: flex;
+    align-items: center;
+    
+}
+.bag{
+    width: 80px;
+    padding-left: 40px;
+}
+.list{
+    
+    
+    padding-right: 6rem;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5rem;
+}
+a{
+    font-size: 1.5rem;
+    font-style:normal;
+    text-decoration: none;
+    font-weight: bold;
+}

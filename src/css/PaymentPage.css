@@ -1,0 +1,107 @@
+/* Scoped styles for PaymentPage */
+.payment-page {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.payment-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-page .amount-section,
+.payment-page .delivery-section,
+.payment-page .payment-details {
+  margin-bottom: 2px;
+}
+
+.payment-page .amount-section label,
+.payment-page .delivery-section label,
+.payment-page .payment-details label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.payment-page input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.payment-page .submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #016c23; /* Primary Color */
+  border: none;
+  color: #ffffff; /* Text Color */
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  padding:15px 0;
+  border-radius: 10px;
+}
+
+.payment-page button:hover {
+  background-color: #EEBA0B; /* Secondary Color */
+  cursor: pointer;
+  box-shadow: #969796 4px 4px 10px;
+}
+
+
+.autoFill{
+  display: flex;
+  padding-bottom: 30px; 
+}
+
+
+
+.autoFill label{
+  color: rgb(0, 34, 255);
+}
+
+.cardType{
+  padding: 20px 0;
+}
+
+.cardType label{
+  padding-bottom: 10px;
+}
+
+.cardType  select{
+  padding: 10px 4px;
+  font-size: 15px;
+}
+
+
+.savedCards select{
+  background-color: #defaff;
+  margin-top: 10px;
+  padding: 10px 4px;
+  font-size: 15px;
+
+}
+
+.delete-card-button{
+  font-size: 15px;
+  margin-top: 10px;
+  background-color: rgb(247, 8, 8);
+  padding:10px 20px;
+  
+  border-radius: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+}
+
+
+
+
