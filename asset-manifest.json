@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/custombananabread/static/css/main.36a2d3dd.css",
-    "main.js": "/custombananabread/static/js/main.1ee796e5.js",
+    "main.js": "/custombananabread/static/js/main.a766fc16.js",
     "static/js/453.3cce93d7.chunk.js": "/custombananabread/static/js/453.3cce93d7.chunk.js",
     "static/media/backimage.jpg": "/custombananabread/static/media/backimage.15a7c8f37feaeaf48a99.jpg",
     "static/media/bc1.jpg": "/custombananabread/static/media/bc1.609e3523897cfb01a669.jpg",
@@ -10,11 +10,11 @@
     "static/media/logo.svg": "/custombananabread/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/custombananabread/index.html",
     "main.36a2d3dd.css.map": "/custombananabread/static/css/main.36a2d3dd.css.map",
-    "main.1ee796e5.js.map": "/custombananabread/static/js/main.1ee796e5.js.map",
+    "main.a766fc16.js.map": "/custombananabread/static/js/main.a766fc16.js.map",
     "453.3cce93d7.chunk.js.map": "/custombananabread/static/js/453.3cce93d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36a2d3dd.css",
-    "static/js/main.1ee796e5.js"
+    "static/js/main.a766fc16.js"
   ]
 }
