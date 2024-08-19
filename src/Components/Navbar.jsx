@@ -53,7 +53,7 @@ export default function Navbar() {
             <a
               href=""
               onClick={() => {
-                navigate("/Homepage");
+                navigate("/homepage");
               }}
             >
               Home
