@@ -60,6 +60,7 @@ function App() {
             <Route path="/custombananabread/" element={<SignIn />} />
             <Route path="/" element={<SignIn />} />
             <Route path="/Homepage" element={<Body />} />
+            <Route path="/homepage" element={<Body />} />
             <Route path="/summary" element={<SummaryDisplay />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/signin" element={<SignIn />} />
